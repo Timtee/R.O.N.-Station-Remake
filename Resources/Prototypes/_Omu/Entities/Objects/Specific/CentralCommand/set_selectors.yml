@@ -1,0 +1,15 @@
+# Blueshield Omu Edition
+
+- type: entity
+  id: BlueshieldUndeterminedOffensive
+  name: blueshield offensive sets pack
+  description: A small box utilizing bluespace technology to drop in a loadout meant for offensive directly to you. Choose wisely.
+  parent: [ BaseItem, BaseSetSelector, BaseCentcommContraband ]
+  components:
+  - type: Sprite
+    sprite: _Omu/Objects/Misc/GunCases/blueshieldoffensivecase.rsi
+    state: icon
+  - type: SetSelector
+    possibleSets:
+    - BSOGendarmeset # Ron - Theres no other BSO weapons on this fork yet.
+    maxSelectedSets: 1
