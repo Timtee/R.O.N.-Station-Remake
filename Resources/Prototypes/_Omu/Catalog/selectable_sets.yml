@@ -1,0 +1,9 @@
+- type: selectableSet
+  id: BSOMedicalSet
+  name: selectable-set-bso-medical-name
+  description: selectable-set-bso-medical-description
+  sprite:
+    sprite: Objects/Specific/Medical/medical.rsi
+    state: medicated-suture
+  content:
+  - ClothingBeltMilitaryWebbingBSOFilledMed

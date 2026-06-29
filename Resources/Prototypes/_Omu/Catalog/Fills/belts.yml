@@ -1,0 +1,11 @@
+- type: entity
+  id: ClothingBeltMilitaryWebbingBSOFilledMed
+  parent: ClothingBeltMilitaryWebbingBSO
+  suffix: Filled, Medical Set
+  components:
+  - type: StorageFill
+    contents:
+    - id: DefibrillatorCompact
+    - id: MedkitCombatFilled
+      amount: 2
+    #- id: BodyBagBluespaceBSOFolded # moved from surgical # Ron - We don't have that yet...

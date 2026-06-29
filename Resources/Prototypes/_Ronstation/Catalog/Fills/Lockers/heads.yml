@@ -20,6 +20,8 @@
     - id: FlashlightSeclite
     - id: RubberStampBlueshield
     - id: BookBlueshield # book of no validhunting
+    - id: BlueshieldUndeterminedOffensive
+    - id: BlueshieldUndeterminedSupport
     - id: Tourniquet
       prob: 0.6
     - id: HandheldStationMap
