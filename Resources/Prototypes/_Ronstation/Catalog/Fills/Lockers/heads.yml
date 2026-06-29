@@ -2,7 +2,9 @@
   id: LockerFillBlueshieldOfficer
   table: !type:AllSelector
     children:
-    - id: ClothingBeltBlueshieldFilled
+    #- id: ClothingBeltBlueshieldFilled # BSO with 2 Gendarmes :fear:
+    - id: BlueshieldUndeterminedOffensive
+    - id: BlueshieldUndeterminedSupport
     - !type:GroupSelector
       children:
       - id: ClothingEyesGlassesCommand
@@ -20,8 +22,6 @@
     - id: FlashlightSeclite
     - id: RubberStampBlueshield
     - id: BookBlueshield # book of no validhunting
-    - id: BlueshieldUndeterminedOffensive
-    - id: BlueshieldUndeterminedSupport
     - id: Tourniquet
       prob: 0.6
     - id: HandheldStationMap
