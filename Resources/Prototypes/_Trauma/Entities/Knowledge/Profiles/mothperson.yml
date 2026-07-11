@@ -29,9 +29,9 @@
     ChemistryKnowledge: 0
     # Physical Skill
     ThrowingKnowledge: 0
-    AthleticsKnowledge: 1
-    StrengthKnowledge: 3
-    ToughnessKnowledge: 3
+    AthleticsKnowledge: 0
+    StrengthKnowledge: 0
+    ToughnessKnowledge: 0
     # Combat Skill
     MeleeKnowledge: 0
     ShootingKnowledge: 0
