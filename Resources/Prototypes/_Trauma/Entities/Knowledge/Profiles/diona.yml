@@ -1,36 +1,36 @@
 - type: knowledgeProfile
   id: Diona
-  pointsLimit: 5
+  pointsLimit: 10 # Most points to work with for customization.
   mastery:
-    # Crafting Recipe Skills
+    # Crafting Recipe Skills - 1 is standard unless stated otherwise.
     CookingKnowledge: 0
     MaterialsKnowledge: 1
     DoorsKnowledge: 1
     AirlocksKnowledge: 1
     ToysKnowledge: 1
-    BananiumKnowledge: 0
-    BotsKnowledge: 0
+    BananiumKnowledge: 0 # Not roundstart, blueprint required.
+    BotsKnowledge: 0 # Not roundstart, blueprint required.
     FurnitureKnowledge: 1
     InfrastructureKnowledge: 1
     ElectronicsKnowledge: 1
     WallsKnowledge: 1
-    ScienceKnowledge: 0
+    ScienceKnowledge: 0 # Not roundstart, blueprint required.
     WindowsKnowledge: 1
-    SmokeablesKnowledge: 4
+    SmokeablesKnowledge: 0 # Not roundstart, blueprint required.
     # Intelectual Skills
     LiteracyKnowledge: 4
-    MagicalLiteracyKnowledge: 1 # Preemptive magical knowledge for when it matters. Magic tree ent lore larp or smth.
+    MagicalLiteracyKnowledge: 0
     # Language Skills
-    LanguageRootSpeak: 3
+    LanguageSolCommon: 3
     # Medical Skill
     SurgeryKnowledge: 0
-    FirstAidKnowledge: 1
-    ChemistryKnowledge: 1
+    FirstAidKnowledge: 0
+    ChemistryKnowledge: 0
     # Physical Skill
-    ThrowingKnowledge: 1 # Mass matters for throwing but lean into it a bit.
-    AthleticsKnowledge: 0
-    StrengthKnowledge: 0
-    ToughnessKnowledge: 2
+    ThrowingKnowledge: 0
+    AthleticsKnowledge: 1
+    StrengthKnowledge: 3
+    ToughnessKnowledge: 3
     # Combat Skill
     MeleeKnowledge: 0
     ShootingKnowledge: 0

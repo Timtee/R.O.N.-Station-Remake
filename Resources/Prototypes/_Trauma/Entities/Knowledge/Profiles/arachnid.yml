@@ -1,34 +1,35 @@
 - type: knowledgeProfile
   id: Arachnid
-  pointsLimit: 5
+  pointsLimit: 10 # Most points to work with for customization.
   mastery:
-    # Crafting Recipe Skills
+    # Crafting Recipe Skills - 1 is standard unless stated otherwise.
     CookingKnowledge: 0
     MaterialsKnowledge: 1
     DoorsKnowledge: 1
     AirlocksKnowledge: 1
     ToysKnowledge: 1
-    BananiumKnowledge: 0
-    BotsKnowledge: 0
+    BananiumKnowledge: 0 # Not roundstart, blueprint required.
+    BotsKnowledge: 0 # Not roundstart, blueprint required.
     FurnitureKnowledge: 1
     InfrastructureKnowledge: 1
     ElectronicsKnowledge: 1
     WallsKnowledge: 1
-    ScienceKnowledge: 0
+    ScienceKnowledge: 0 # Not roundstart, blueprint required.
     WindowsKnowledge: 1
-    SmokeablesKnowledge: 0
+    SmokeablesKnowledge: 0 # Not roundstart, blueprint required.
     SpiderCraftKnowledge: 4
     # Intelectual Skills
     LiteracyKnowledge: 4
     MagicalLiteracyKnowledge: 0
     # Language Skills
+    LanguageSolCommon: 3
     # Medical Skill
     SurgeryKnowledge: 0
     FirstAidKnowledge: 0
     ChemistryKnowledge: 0
     # Physical Skill
     ThrowingKnowledge: 0
-    AthleticsKnowledge: 2 # Jumping spider larp.
+    AthleticsKnowledge: 0
     StrengthKnowledge: 0
     ToughnessKnowledge: 0
     # Combat Skill
