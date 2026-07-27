@@ -1,0 +1,21 @@
+- type: npcFaction
+  id: XenoPet
+  friendly:
+  - NanoTrasen
+  - PetsNT
+  - Xeno
+  hostile:
+  # <Goob>
+  - Balloon # Pets can join the fight against the balloons
+  - Blob
+  - Lavafauna
+  # </Goob>
+  - Mouse
+  - SimpleHostile
+  - Zombie
+  - AllHostile
+  - Dragon
+  # <Trauma>
+  - Insurgent
+  - CrabFaction
+  # </Trauma>

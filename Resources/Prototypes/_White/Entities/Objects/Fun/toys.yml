@@ -4,7 +4,7 @@
   parent: ClothingMaskBase
   id: FaceHuggerToys
   name: xenomorph facehugger
-  description: A toy often used to play pranks on other crew members by putting it in their beds. It takes a bit to recharge after latching onto something.
+  description: A toy often used to play pranks on other crew members by putting it in their beds. It takes a bit to recharge after latching onto something, and has a power switch for storing the facehugger.
   suffix: Toys
   components:
   - type: Sprite
@@ -16,21 +16,23 @@
   - type: Clothing
     sprite: _White/Mobs/Aliens/Xenomorphs/old_facehugger.rsi
     slots: [mask]
-  - type: IngestionBlocker
-  - type: Blindfold
-  - type: AddAccentClothing
-    accent: ReplacementAccent
-    replacement: mumble
-  - type: FaceHugger
-    blacklist:
-      components:
-      - Ghost
-    knockdownTime: 0
-    infectionPrototype: null
-    damageOnImpact:
-      types:
-        Blunt: 0
-    sleepChem: null # fucking no
+  - type: ComponentToggler
+    components:
+    - type: IngestionBlocker
+    - type: Blindfold
+    - type: AddAccentClothing
+      accent: ReplacementAccent
+      replacement: mumble
+    - type: FaceHugger
+      blacklist:
+       components:
+        - Ghost
+      knockdownTime: 0
+      infectionPrototype: null
+      damageOnImpact:
+        types:
+          Blunt: 0
+      sleepChem: null # fucking no
   - type: MeleeWeapon
     hidden: true
     canWideSwing: false
@@ -61,3 +63,9 @@
   - type: Tag
     tags:
     - XenomorphItem
+  - type: ItemToggle # R.O.N
+    predictable: false
+    soundActivate:
+      path: /Audio/Items/flashlight_on.ogg
+    soundDeactivate:
+      path: /Audio/Items/flashlight_off.ogg # R.O.N end
