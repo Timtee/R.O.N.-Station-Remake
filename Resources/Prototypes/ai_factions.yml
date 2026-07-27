@@ -171,6 +171,7 @@
   # </Trauma>
   friendly: # Goob - wizard is now friendly
   - Wizard
+  - XenoPet
 
 - type: npcFaction
   id: Zombie
