@@ -20,10 +20,14 @@
     thresholds:
       0: Alive
       30: Dead
-  - trigger:
-      !type:DamageTypeTrigger
-      damageType: Blunt
-      damage: 200
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 400
+      behaviors:
+      - !type:GibBehavior
     behaviors:
     - !type:GibBehavior
   - type: CanEscapeInventory
