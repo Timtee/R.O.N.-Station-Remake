@@ -28,8 +28,6 @@
         damage: 400
       behaviors:
       - !type:GibBehavior
-    behaviors:
-    - !type:GibBehavior
   - type: CanEscapeInventory
   - type: GhostRole
     name: ghost-role-information-facehugger-name
