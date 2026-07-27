@@ -2,7 +2,7 @@
   id: MobXenomorphFaceHuggerLamarr
   parent: MobXenomorphFaceHugger
   name: Lamarr
-  description: A former nightmare candidate, now an exemplary pet. Surgically enhanced by the Research Director to survive more workplace accidents!
+  description: A former nightmare candidate, now an exemplary pet. Surgically enhanced by the Research Director to survive more workplace accidents! # R.O.N, slight edit
   components:
   - type: Sprite
     sprite: _Trauma/Mobs/Xenos/facehugger.rsi
