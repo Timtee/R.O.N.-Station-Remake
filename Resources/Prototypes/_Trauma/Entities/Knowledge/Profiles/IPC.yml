@@ -1,22 +1,22 @@
 - type: knowledgeProfile
   id: IPC
-  pointsLimit: 2
+  pointsLimit: 10 # Most points to work with for customization.
   mastery:
-    # Crafting Recipe Skills
+    # Crafting Recipe Skills - 1 is standard unless stated otherwise.
     CookingKnowledge: 0
     MaterialsKnowledge: 1
     DoorsKnowledge: 1
     AirlocksKnowledge: 1
     ToysKnowledge: 1
-    BananiumKnowledge: 0
-    BotsKnowledge: 2 # I AM
+    BananiumKnowledge: 0 # Not roundstart, blueprint required.
+    BotsKnowledge: 0 # Not roundstart, blueprint required.
     FurnitureKnowledge: 1
     InfrastructureKnowledge: 1
-    ElectronicsKnowledge: 2
+    ElectronicsKnowledge: 1
     WallsKnowledge: 1
-    ScienceKnowledge: 2
+    ScienceKnowledge: 0 # Not roundstart, blueprint required.
     WindowsKnowledge: 1
-    SmokeablesKnowledge: 0
+    SmokeablesKnowledge: 0 # Not roundstart, blueprint required.
     # Intelectual Skills
     LiteracyKnowledge: 4
     MagicalLiteracyKnowledge: 0
@@ -45,3 +45,4 @@
     TailoringKnowledge: 0
     # Misc Skill
     JanitorKnowledge: 0
+

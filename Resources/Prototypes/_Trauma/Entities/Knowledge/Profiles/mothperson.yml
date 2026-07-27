@@ -1,48 +1,48 @@
 # Default for any species that has no knowledge profile of its own
 - type: knowledgeProfile
   id: Mothperson
-  pointsLimit: 5
+  pointsLimit: 10 # Most points to work with for customization.
   mastery:
-    # Crafting Recipe Skills
+    # Crafting Recipe Skills - 1 is standard unless stated otherwise.
     CookingKnowledge: 0
     MaterialsKnowledge: 1
-    DoorsKnowledge: 2
+    DoorsKnowledge: 1
     AirlocksKnowledge: 1
-    ToysKnowledge: 0
-    BananiumKnowledge: 0
-    BotsKnowledge: 0
-    FurnitureKnowledge: 2
+    ToysKnowledge: 1
+    BananiumKnowledge: 0 # Not roundstart, blueprint required.
+    BotsKnowledge: 0 # Not roundstart, blueprint required.
+    FurnitureKnowledge: 1
     InfrastructureKnowledge: 1
     ElectronicsKnowledge: 1
-    WallsKnowledge: 2
-    ScienceKnowledge: 0
-    WindowsKnowledge: 2
-    SmokeablesKnowledge: 0
+    WallsKnowledge: 1
+    ScienceKnowledge: 0 # Not roundstart, blueprint required.
+    WindowsKnowledge: 1
+    SmokeablesKnowledge: 0 # Not roundstart, blueprint required.
     # Intelectual Skills
     LiteracyKnowledge: 4
     MagicalLiteracyKnowledge: 0
     # Language Skills
-    LanguageMoffic: 3
+    LanguageSolCommon: 3
     # Medical Skill
     SurgeryKnowledge: 0
     FirstAidKnowledge: 0
     ChemistryKnowledge: 0
     # Physical Skill
     ThrowingKnowledge: 0
-    AthleticsKnowledge: 3
+    AthleticsKnowledge: 0
     StrengthKnowledge: 0
     ToughnessKnowledge: 0
     # Combat Skill
     MeleeKnowledge: 0
     ShootingKnowledge: 0
     # Crafting Quality
-    FabricationKnowledge: 1
+    FabricationKnowledge: 0
     WeaponsKnowledge: 0
     ArmorKnowledge: 0
     MetalworkingKnowledge: 0
     CarvingKnowledge: 0
     GunsmithingKnowledge: 0
-    MechanicsKnowledge: 1
-    TailoringKnowledge: 1 # gotta make some clothes to eat
+    MechanicsKnowledge: 0
+    TailoringKnowledge: 0
     # Misc Skill
     JanitorKnowledge: 0
