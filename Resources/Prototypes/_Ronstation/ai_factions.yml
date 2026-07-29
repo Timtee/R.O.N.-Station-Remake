@@ -1,7 +1,6 @@
 - type: npcFaction
   id: XenoPet
   friendly:
-  - NanoTrasen
   - PetsNT
   - Xeno
   hostile:
