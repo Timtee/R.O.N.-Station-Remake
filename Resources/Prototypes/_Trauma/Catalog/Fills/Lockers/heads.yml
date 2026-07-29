@@ -1,3 +1,5 @@
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: entityTable
   id: LockerFillQuarterMasterTrauma
   table: !type:AllSelector
@@ -68,6 +70,7 @@
     - id: ArmoryOverrideKeyComponents
     - id: SecAntagSummoner
     - id: ClothingHandsGlovesGorilla
+    - id: HeadOfSecurityWeaponUndetermined # R.O.N
 
 - type: entityTable
   id: LockerFillCaptainTrauma
