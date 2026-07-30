@@ -24,7 +24,7 @@
     - type: Blindfold
     - type: ReplacementAccent
       accent: mumble
-     relayAccent: true
+      relayAccent: true
     - type: FaceHugger
       blacklist:
        components:
