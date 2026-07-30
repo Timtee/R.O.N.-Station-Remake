@@ -22,8 +22,8 @@
     components:
     - type: IngestionBlocker
     - type: Blindfold
-   - type: ReplacementAccent
-     accent: mumble
+    - type: ReplacementAccent
+      accent: mumble
      relayAccent: true
     - type: FaceHugger
       blacklist:
