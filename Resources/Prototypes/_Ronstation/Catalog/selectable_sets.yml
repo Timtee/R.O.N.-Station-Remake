@@ -1,0 +1,11 @@
+# BlueShield Officer
+
+- type: selectableSet
+  id: BSOGendarmeset
+  name: selectable-set-blueshield-gendarme-name
+  description: selectable-set-blueshield-gendarme-description
+  sprite:
+    sprite: _Ronstation/Objects/Weapons/Guns/Battery/gendarme.rsi
+    state: base
+  content:
+  - ClothingBeltBlueshieldFilled

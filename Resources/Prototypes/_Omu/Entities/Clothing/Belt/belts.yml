@@ -1,0 +1,48 @@
+- type: entity
+  id: ClothingBeltMilitaryWebbingBSO
+  parent: [ BaseCentcommContraband, ClothingBeltMilitaryWebbingCMO ]
+  name: blueshield officer's medical chest rig # renamed for medical set
+  description: A robust chest rig with deep pockets and hooks, for use by a Blueshield Officer who believes in the reliability of classic medicinals.
+  components:
+  - type: Sprite
+    sprite: _Omu/Clothing/Belt/blueshieldwebbing.rsi
+  - type: Clothing
+    sprite: _Omu/Clothing/Belt/blueshieldwebbing.rsi
+  - type: Storage
+    grid:
+    - 0,0,6,2
+    whitelist: # I have no idea why is, say, wrench here, but it's just copied from medical belt.
+      tags:
+      - Wrench
+      - Bottle
+      - Spray
+      - Brutepack
+      - Bloodpack
+      - Gauze
+      - Ointment
+      - CigPack
+      - PillCanister
+      - Radio
+      - DiscreteHealthAnalyzer
+      - SurgeryTool
+      - Dropper
+      - Tourniquet #Goobstation
+      - MedicalPatch # Goobstation
+      #- AutoinjectorCartridge # Goobstation # Ron - apparently we dont have that either.
+      - HandheldCrewMonitor # Goobstation
+      - Medkit # Omustation, for BSO's medical set
+      - BodyBag # Omustation, for BSO's surgical set
+      - SyringeCase # Copied from CMO's rig
+      # - RollerBedCompact # For BSO's bluespace roller beds # Ron - Don't have that yet...
+      components:
+      - Flash
+      - Handcuff
+      - Whistle
+      - Hypospray
+      - Injector
+      - Pill
+      - HandLabeler
+      - SurgeryTool # Shitmed Change
+      - Defibrillator # Goobstation
+      - GunApplySolution # Goobstation - Syndicate dart gun
+      - FitsInDispenser

@@ -2,7 +2,9 @@
   id: LockerFillBlueshieldOfficer
   table: !type:AllSelector
     children:
-    - id: ClothingBeltBlueshieldFilled
+    #- id: ClothingBeltBlueshieldFilled # BSO with 2 Gendarmes :fear:
+    - id: BlueshieldUndeterminedOffensive
+    - id: BlueshieldUndeterminedSupport
     - !type:GroupSelector
       children:
       - id: ClothingEyesGlassesCommand
