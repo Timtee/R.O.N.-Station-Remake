@@ -16,7 +16,6 @@ barks_enabled = true
 cooldown = 5
 auto_call_time = 90
 arrivals_returns = true
-mass_limit = 1200
 
 [net]
 pvs_enter_budget = 300 # 200 by default
