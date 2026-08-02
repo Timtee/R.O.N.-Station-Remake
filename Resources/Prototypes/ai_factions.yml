@@ -65,8 +65,8 @@
 
 - type: npcFaction
   id: PetsNT
-  # friendly: # Trauma
-  # - NanoTrasen
+  friendly:
+  - XenoPet # R.O.N
   hostile:
   # <Goob>
   - Balloon # Pets can join the fight against the balloons
@@ -171,6 +171,7 @@
   # </Trauma>
   friendly: # Goob - wizard is now friendly
   - Wizard
+  - XenoPet # R.O.N
 
 - type: npcFaction
   id: Zombie

@@ -4,10 +4,10 @@
   id: MobXenomorphFaceHuggerLamarr
   parent: MobXenomorphFaceHugger
   name: Lamarr
-  description: A former nightmare candidate, now an exemplary pet.
+  description: A former nightmare candidate, now an exemplary pet. Surgically enhanced by the Research Director to survive more workplace accidents! # R.O.N, slight edit
   components:
   - type: Sprite
-    sprite: _White/Mobs/Aliens/Xenomorphs/old_facehugger.rsi
+    sprite: _Trauma/Mobs/Xenos/facehugger.rsi
   - type: FaceHugger
     knockdownTime: 0
     infectionPrototype: null
@@ -18,3 +18,22 @@
     delay: 7
   - type: StealTarget
     stealGroup: AnimalLamarr
+  - type: MobThresholds # R.O.N starts here
+    thresholds:
+      0: Alive
+      30: Dead
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTypeTrigger
+        damageType: Blunt
+        damage: 400
+      behaviors:
+      - !type:GibBehavior
+  - type: CanEscapeInventory
+  - type: GhostRole
+    name: ghost-role-information-facehugger-name
+    description: ghost-role-information-facehugger-description
+  - type: NpcFactionMember
+    factions:
+    - XenoPet # R.O.N ends here
